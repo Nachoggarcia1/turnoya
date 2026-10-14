@@ -1,0 +1,83 @@
+footer{
+background-color:#222222;
+color:white;
+text-align: center;
+padding: 15px;
+}
+
+p{
+    color:#020202;
+    font-size: 18px;   
+}
+body { 
+font-family: Arial, sans-serif; /*tipografía*/
+background-color: #f4f4f4; /*color de fondo*/
+color: #333333; /*color del texto*/
+margin: 0; /*margen*/
+} 
+h2 { 
+color: #2f7d32; 
+} 
+p { 
+line-height: 1.6; /*interlineado*/
+} 
+.tarjeta{
+    background-color:rgb(254, 254, 253);
+padding: 20px;/*espaciado interno*/
+margin-bottom: 20px;/*espaciado inferior*/
+border-radius: 8px;/*bordes redondeados*/
+}
+header{/*estilos del encabezado*/
+    background-color: #2f7d32; /*color de fondo*/
+    color: white; /*color del texto*/
+    padding: 24px; /*espaciado interno*/
+    text-align:center; /*alineación del texto*/
+}
+nav{/*estilos de la barra de navegacion*/
+    background-color: #2f7d32; /*color de fondo*/
+    padding: 12px; /*espaciado interno*/
+    text-align: center; /*alineación del texto*/
+    display:flex; /*flexbox para alinear los elementos*/
+    justify-content: center; /*centrado horizontal*/
+    gap: 20px; /*espaciado entre enlaces*/
+    
+}
+
+nav a {/*estilos de la barra de navegacion*/
+color:aliceblue;
+text-decoration: none; /*sin subrayado*/
+margin: 0 10px;
+}
+main{/*estilos del contenido principal*/
+    max-width: 900px; /*ancho máximo*/
+    margin: 30px auto; /*centrado*/
+    padding: 0 20px; /*espaciado interno*/
+}
+nav a:hover{/*cambia el puntero cuando pasa por un enlace*/
+    text-decoration: underline; /*subrayado*/
+}
+
+.contenedor-tarjetas {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+@media (min-width: 768px) { 
+nav { 
+flex-direction: row; 
+justify-content: center; 
+gap: 20px; 
+} 
+.contenedor-tarjetas { 
+grid-template-columns: repeat(3, 1fr); 
+} 
+} 
+

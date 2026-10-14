@@ -1,0 +1,9 @@
+# Archivos del sistema
+Thumbs.db
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Configuración local de VS Code
+.vscode/
